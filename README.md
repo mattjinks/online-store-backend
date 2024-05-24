@@ -70,8 +70,11 @@ To ensure the security of user passwords, this project utilizes the bcrypt libra
 **How bcrypt Protects User Passwords** 
 
 1\. **Salt Generation:** A unique salt is generated for each user.
+
 2\. **Combined Input:** The salt is appended to the user's plain text password.
+
 3\. **Hashing:** The combined salt and password string are processed through the bcrypt algorithm, producing a secure hash.
+
 4\. **Storage:** The resulting hash (not the original password) is stored in the database along with the salt.
 
 ## Web Tokens
