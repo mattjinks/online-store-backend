@@ -16,7 +16,8 @@ This project builds a backend API that powers an online store application.
 
 
 ## Technologies Used:
-
+- **Typescript*
+  
 - **Postgres** for database
 
 - **Express** (Node framework) for implementing RESTful APIs
